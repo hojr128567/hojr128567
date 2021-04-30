@@ -1,2 +1,5 @@
-<?php echo"hello world!" 
-$name_hojr="hojr";?>
+<?php echo"hello";
+$name_dev="hojr";
+
+
+?>
