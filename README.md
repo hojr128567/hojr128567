@@ -1,7 +1,7 @@
 <?php
 $name_dev_phl="hojr";
 $one=1;
-$pi=3.14
+$pi=3.14;
 $big_num=99999999999999999999999999999;
 $Google_url="https://www.google.com";
 $http="http://";
