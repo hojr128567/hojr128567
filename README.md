@@ -1,4 +1,7 @@
 <?php
+//phl
+//php hojr lib
+//var
 $name_dev_phl="hojr";
 $one=1;
 $pi=3.14;
@@ -12,7 +15,7 @@ $ahh=360;
 $n="/";
 $net=".net";
 $www="www";
-$i=0;
+$i=$i++;
 $abc1="A";
 $abc2="B";
 $abc3="C";
@@ -32,6 +35,7 @@ $abc16="P";
 $abc17="Q";
 $abc18="R";
 $abc19="S";
+$abc19="S";
 $abc20="T";
 $abc21="U";
 $abc22="V";
@@ -39,13 +43,16 @@ $abc23="W";
 $abc24="X";
 $abc25="Y";
 $abc26="Z";
-define("__URL__","$_SERVER['HTTP_X_FORWARDED_PROTO']://$_SERVER['HTTP_HOST']");
+$m="://";
+//constant
+define("__URL__",$_SERVER['HTTP_X_FORWARDED_PROTO']$m$_SERVER['HTTP_HOST']);
+$url_abc=__URL__;
 define("REQUEST_TIME",$_SERVER['REQUEST_TIME']);
 define("REQUEST_TIME_FLOAT",$_SERVER['REQUEST_TIME_FLOAT']);
-define("__ROOT__","$_SERVER['CONTEXT_DOCUMENT_ROOT']");
+define("__ROOT__",$_SERVER['CONTEXT_DOCUMENT_ROOT']);
 define("PRT",$_SERVER['SERVER_PROTOCOL']);
 define("SOFTWARE",$_SERVER['SERVER_SOFTWARE']);
-define("FILE_URL","__URL__$_SERVER['SCRIPT_NAME']");
+define("FILE_URL",$url_abc$_SERVER['SCRIPT_NAME']);
 define("REQUEST_SCHEME",$_SERVER['REQUEST_SCHEME']);
 define("REMOTE_PORT",$_SERVER['REMOTE_PORT']);
 define("SERVER_PORT",$_SERVER['SERVER_PORT']);
