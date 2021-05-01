@@ -1,4 +1,6 @@
 <?php
+//phl
+//php hojr lib
 $name_dev_phl="hojr";
 $one=1;
 $pi=3.14;
