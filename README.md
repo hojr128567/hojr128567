@@ -11,9 +11,4 @@ $localhost="http://localhost";
 $ahh=360;
 $n="/";
 $net=".net";
-$type['image']='image/*';
-$type['text']='text/*';
-$type['audio']='audio/*';
-$type['video']='video/*';
-$type['all']='*/*';
 ?>
