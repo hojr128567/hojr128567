@@ -1,7 +1,4 @@
 <?php
-//phl
-//php hojr lib
-//var
 $name_dev_phl="hojr";
 $one=1;
 $pi=3.14;
@@ -42,7 +39,6 @@ $abc23="W";
 $abc24="X";
 $abc25="Y";
 $abc26="Z";
-//constant
 define("__URL__","$_SERVER['HTTP_X_FORWARDED_PROTO']://$_SERVER['HTTP_HOST']");
 define("REQUEST_TIME",$_SERVER['REQUEST_TIME']);
 define("REQUEST_TIME_FLOAT",$_SERVER['REQUEST_TIME_FLOAT']);
