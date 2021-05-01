@@ -70,4 +70,12 @@ define("HTTP_USER_AGENT",$_SERVER['HTTP_USER_AGENT']);
 define("SCRIPT_NAME",$_SERVER['SCRIPT_NAME']);
 
 define("__IP__",$_SERVER['HTTP_X_REAL_IP']);
+//website
+define("BBC","http://bbc.com");
+define("INSTAGRAM","https://www.instagram.com/");
+define("TELEGRAM","https://telegram.org");
+define("YOUTUBE","https://www.youtube.com");
+define("MICROSOFT","https://www.microsof.com");
+define("PHP","http://php.net");
+define("AMAZON","https://www.amazon.com");
 ?>
