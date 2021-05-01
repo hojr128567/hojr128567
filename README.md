@@ -68,4 +68,6 @@ define("SERVER_PORT",$_SERVER['SERVER_PORT']);
 define("HTTP_USER_AGENT",$_SERVER['HTTP_USER_AGENT']);
 
 define("SCRIPT_NAME",$_SERVER['SCRIPT_NAME']);
+
+define("__IP__",$_SERVER['HTTP_X_REAL_IP']);
 ?>
