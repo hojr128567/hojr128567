@@ -1,4 +1,4 @@
-<?php echo"hello";
+<?php
 $name_dev="hojr";
 
 
