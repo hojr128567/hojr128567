@@ -78,4 +78,12 @@ define("YOUTUBE","https://www.youtube.com");
 define("MICROSOFT","https://www.microsof.com");
 define("PHP","http://php.net");
 define("AMAZON","https://www.amazon.com");
+//css
+function css($style_var){eval("?>"."<style>$style_var</style>");}
+//js
+function js($js_var){eval("?>"."<script>$js_var</script>");}
+//php
+function compile($code_php){
+  eval("?>".$code_php);
+}
 ?>
