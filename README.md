@@ -92,7 +92,7 @@ function join_and_join($aghhdheudufufut,$bisidoofiruruf){
   return $hausgeududuwhehshsh ;
   
 }
-//phl style
+//style
 function style_width($jqueuhdhdhdhdh,$hqidugyecogw){
   echo compile("<style>#$jqueuhdhdhdhdh {width:$hqidugyecogw}</style>");
 }
