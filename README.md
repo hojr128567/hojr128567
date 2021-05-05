@@ -86,4 +86,10 @@ function js($js_var){eval("?>"."<script>$js_var</script>");}
 function compile($code_php){
   eval("?>".$code_php);
 }
+//functions
+function join_and_join($aghhdheudufufut,$bisidoofiruruf){
+  $hausgeududuwhehshsh="$aghhdheudufufut$bisidoofiruruf";
+  return $hausgeududuwhehshsh ;
+  
+}
 ?>
