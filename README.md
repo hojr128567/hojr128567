@@ -1,5 +1,4 @@
 <hojr id="qjsrcbeuce"></hojr>
-//js
     <script>
     function compile(var1246){
       
