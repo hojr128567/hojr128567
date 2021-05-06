@@ -103,6 +103,9 @@ function join_and_join($aghhdheudufufut,$bisidoofiruruf){
   return $hausgeududuwhehshsh ;
   
 }
+function dialog_s($iehdovbdu){
+  compile("<script>window.alert('$iehdovbdu');</script>");
+}
 //style
 function style_width($jqueuhdhdhdhdh,$hqidugyecogw){
   echo compile("<style>#$jqueuhdhdhdhdh {width:$hqidugyecogw}</style>");
