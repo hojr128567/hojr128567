@@ -105,4 +105,10 @@ function style_max_width($hf12rtctxdgygyygyggygygygy,$hq12idugyewhfrhgfyhgcogw){
 function style_max_height($h1f12rtctxdgygyygyggygygygy,$h1q12idugyewhfrhgfyhgcogw){
   echo compile("<style>#$h1f12rtctxdgygyygyggygygygy {Max-height:$h1q12idugyewhfrhgfyhgcogw}</style>");
 }
+function style_min_width($h21f12rtctxdgygyygyggygygygy,$h21q12idugyewhfrhgfyhgcogw){
+  echo compile("<style>#$h21f12rtctxdgygyygyggygygygy {Min-width:$h21q12idugyewhfrhgfyhgcogw}</style>");
+}
+function style_min_height($h321f12rtctxdgygyygyggygygygy,$h321q12idugyewhfrhgfyhgcogw){
+  echo compile("<style>#$h321f12rtctxdgygyygyggygygygy {Min-height:$h321q12idugyewhfrhgfyhgcogw}</style>");
+}
 ?>
