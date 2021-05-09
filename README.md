@@ -125,4 +125,19 @@ function style_min_width($h21f12rtctxdgygyygyggygygygy,$h21q12idugyewhfrhgfyhgco
 function style_min_height($h321f12rtctxdgygyygyggygygygy,$h321q12idugyewhfrhgfyhgcogw){
   echo compile("<style>#$h321f12rtctxdgygyygyggygygygy {Min-height:$h321q12idugyewhfrhgfyhgcogw}</style>");
 }
+function style_margin($qjswivs,$qubsu){
+  echo compile("<style>#$qjswivs {Margin:$qubsu}</style>");
+}
+function style_margin_top($q1jswivs,$q2ubsu){
+  echo compile("<style>#$q1jswivs {Margin-top:$q2ubsu}</style>");
+}
+function style_margin_bottom($q12jswivs,$q22ubsu){
+  echo compile("<style>#$q12jswivs {Margin-bottom:$q22ubsu}</style>");
+}
+function style_margin_left($q112jswivs,$q122ubsu){
+  echo compile("<style>#$q112jswivs {Margin-left:$q122ubsu}</style>");
+}
+function style_margin_right($q2112jswivs,$q2122ubsu){
+  echo compile("<style>#$q2112jswivs {Margin-right:$q2122ubsu}</style>");
+}
 ?>
