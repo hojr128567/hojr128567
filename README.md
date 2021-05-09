@@ -106,6 +106,28 @@ function join_and_join($aghhdheudufufut,$bisidoofiruruf){
 function dialog_s($iehdovbdu){
   compile("<script>window.alert('$iehdovbdu');</script>");
 }
+function anti_copy($whvagfss){
+  switch ($whvagfss) {
+    case true:
+      compile('<script>function disableselect(e){return false}
+
+function reEnable(){return true}
+
+//if IE4+
+document.onselectstart=new Function ("return false")
+
+//if NS6
+if (window.sidebar){
+document.onmousedown=disableselect
+document.onclick=reEnable
+}
+</script>');
+      break;
+      case false:
+      compile('<script></script>');
+      break;
+  }
+}
 //style
 function style_width($jqueuhdhdhdhdh,$hqidugyecogw){
   echo compile("<style>#$jqueuhdhdhdhdh {width:$hqidugyecogw}</style>");
