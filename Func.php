@@ -22,4 +22,10 @@ function html($hkjgy){
   compile("<html>$hkjgy</html>");
   
 }
+function copy_text($stjbwhdd){
+  compile("<script>
+let myVar=$stjbwhdd
+navigator.clipboard.writeText(myVar);
+</script>");
+}
 ?>
