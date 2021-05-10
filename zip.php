@@ -11,9 +11,4 @@ $zipPath = '/path/to/archive-'.time().'.zip';
 
 // Create zip archive
 $zip = $zipper->zipDir($dirPath, $zipPath);
-
-if($zip){
-    echo 'ZIP archive created successfully.';
-}else{
-    echo 'Failed to create ZIP.';
-}
+?>
