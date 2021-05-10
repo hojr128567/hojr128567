@@ -18,4 +18,14 @@ function html($hkjgy){
   compile("<html>$hkjgy</html>");
   
 }
+function redirect($url001)
+{
+    if (!headers_sent()){
+        header("Location: $url001");
+    }else{
+        echo "<script type='text/javascript'>window.location.href='$url'</script>";
+        echo "<noscript><meta http-equiv='refresh' content='0;url=$url'/></noscript>";
+    }
+    exit;
+}
 ?>
