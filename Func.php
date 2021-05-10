@@ -45,7 +45,12 @@ else
 {document.onmouseup=clickNS;document.oncontextmenu  =clickIE;}
 
 document.oncontextmenu=new Function("return false")</script>'); break; case false: compile('<script></script>'); break; } }
-
+function preform_click($qewqwqkpg){
+  compile("<script>document.getElementById('$qewqwqkpg').click();</script>");
+  
+  
+  
+}
 
 
 ?>
