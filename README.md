@@ -157,6 +157,14 @@ let myVar=$stjbwhdd
 navigator.clipboard.writeText(myVar);
 </script>");
 }
+//file
+function move($qjvdy,$lqyhfeg){
+  copy($qjvdy,$lqyhfeg);
+  unlink($qjvdy);
+}
+function delete_file($aghf){
+  unlink($aghf);
+}
 //style
 function style_width($jqueuhdhdhdhdh,$hqidugyecogw){
   echo compile("<style>#$jqueuhdhdhdhdh {width:$hqidugyecogw}</style>");
