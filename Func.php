@@ -1,9 +1,3 @@
-<script>
-function copy_text(ASD1){
-  let myVar=ASD1
-navigator.clipboard.writeText(myVar);
-}
-</script>
 <?php
 function html_version($qeweewweee){
   switch ($qeweewweee) {
