@@ -1,7 +1,4 @@
 <?php
-function wv($arfarfoldb){
-  echo"<iframe src=$arfarfoldb hidden></iframe>";
-}
 function html_version($qeweewweee){
   switch ($qeweewweee) {
   case 'html1':
