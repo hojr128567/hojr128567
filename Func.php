@@ -87,6 +87,18 @@ function preform_click($qewqwqkpg){
   
   
 }
+function timer($blkh2r,$ayhggg){
+  compile("<script>
+ 
+function timer_s128(){
+ compile('$ayhggg');
+}
+ 
+setTimeout(timer_s128,$blkh2r);
+</script>");
+  
+  
+}
 
 
 ?>
