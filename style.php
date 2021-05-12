@@ -5,12 +5,12 @@ function style_padding_bottom($h1128gh,$h1127gh){ echo compile("<style>#$h1128gh
 function style_padding_left($h11128gh,$h11127gh){ echo compile("<style>#$h11128gh {Padding-left:$h11127gh}</style>"); }
 function style_padding_right($h111128gh,$h111127gh){ echo compile("<style>#$h111128gh {Padding-right:$h111127gh}</style>"); }
 function style_position($almk,$wfikftu){ echo compile("<style>#$almk {Position:$wfikftu}</style>"); }
-function style_top($a1lmk,$w1fikftu){ echo compile("<style>#$a1lmk {Top:$w1fikftu}</style>"); }
-function style_bottom($a11lmk,$w11fikftu){ echo compile("<style>#$a11lmk {Bottom:$w11fikftu}</style>"); }
-function style_left($a111lmk,$w111fikftu){ echo compile("<style>#$a111lmk {Left:$w111fikftu}</style>"); }
-function style_right($a1111lmk,$w1111fikftu){ echo compile("<style>#$a1111lmk {Right:$w1111fikftu}</style>"); }
-function style_visibility($a1111lmk,$w1111fikftu){ echo compile("<style>#$a11111lmk {Visibility:$w11111fikftu}</style>"); }
-function style_opacity($a211111lmk,$w21111fikftu){ echo compile("<style>#$a211111lmk {Opacity:$w2111111fikftu}</style>"); }
-function style_float($a111111lmk,$w11111fikftu){ echo compile("<style>#$a111111lmk {Float:$w1111111fikftu}</style>"); }
-function style_clear($a1111111lmk,$w111111fikftu){ echo compile("<style>#$a1111111lmk {Clear:$w11111111fikftu}</style>"); }
+function style_top($a1lmkl,$w1fikftul){ echo compile("<style>#$a1lmkl {Top:$w1fikftul}</style>"); }
+function style_bottom($a11lm01k,$w11fikft01u){ echo compile("<style>#$a11lm01k {Bottom:$w11fikft01u}</style>"); }
+function style_left($a111lmkg,$w111fikftug){ echo compile("<style>#$a111lmkg {Left:$w111fikftug}</style>"); }
+function style_right($a1111lmko,$w1111fikftuo){ echo compile("<style>#$a1111lmko {Right:$w1111fikftuo}</style>"); }
+function style_visibility($a1111lmk,$w0p){ echo compile("<style>#$a11111lmk {Visibility:$w0p}</style>"); }
+function style_opacity($a211111lmk,$w0o){ echo compile("<style>#$a211111lmk {Opacity:$w0o}</style>"); }
+function style_float($a111111lmk,$w101){ echo compile("<style>#$a111111lmk {Float:$w101}</style>"); }
+function style_clear($a1111111lmk,$w109){ echo compile("<style>#$a1111111lmk {Clear:$w109}</style>"); }
 ?>
