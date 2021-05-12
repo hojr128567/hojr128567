@@ -44,6 +44,12 @@ function set_icon($ayhdrufe){
   
   
 }
+function set_body($qrdq56){
+  compile("<body>$qrdq56</body>");
+}
+function set_head($qrdq561){
+  compile("<head>$qrdq561</head>");
+}
 function set_title($ethfe){
   compile("<title>$ethfe</title>");
   
