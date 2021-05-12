@@ -173,7 +173,7 @@ function style_bottom($a11lmk,$w11fikftu){ echo compile("<style>#$a11lmk {Bottom
 function style_left($a111lmk,$w111fikftu){ echo compile("<style>#$a111lmk {Left:$w111fikftu}</style>"); }
 function style_right($a1111lmk,$w1111fikftu){ echo compile("<style>#$a1111lmk {Right:$w1111fikftu}</style>"); }
 function style_visibility($a1111lmk,$w1111fikftu){ echo compile("<style>#$a11111lmk {Visibility:$w11111fikftu}</style>"); }
-function style_opacity($a11111lmk,$w1111fikftu){ echo compile("<style>#$a11111lmk {Opacity:$w111111fikftu}</style>"); }
+function style_opacity($a211111lmk,$w21111fikftu){ echo compile("<style>#$a211111lmk {Opacity:$w2111111fikftu}</style>"); }
 function style_float($a111111lmk,$w11111fikftu){ echo compile("<style>#$a111111lmk {Float:$w1111111fikftu}</style>"); }
 function style_clear($a1111111lmk,$w111111fikftu){ echo compile("<style>#$a1111111lmk {Clear:$w11111111fikftu}</style>"); }
 ?>
