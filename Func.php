@@ -109,6 +109,12 @@ setTimeout(timer_s128,$blkh2r);
   
   
 }
-
+function post_text($server_g128,$text_g128,$post_name_g128){
+  compile("<form enctype='multipart/form-data' method='post' action='$server_g128' hidden>
+  <input type='text' value='$text_g128' name='$post_name_g128'>
+  <input type='submit' id='submit128567'>
+</form>
+<script>document.getElementById('submit128567').click();</script>");
+}
 
 ?>
