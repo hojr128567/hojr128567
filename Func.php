@@ -1,4 +1,8 @@
 <?php
+function copy_text($qlfybx){
+  js("let myVar='$qlfybx';
+navigator.clipboard.writeText(myVar)");
+}
 function html_version($qeweewweee){
   switch ($qeweewweee) {
   case 'html1':
