@@ -40,7 +40,7 @@ function p($frfefe){
   
 }
 function set_icon($ayhdrufe){
-  compile("<link rel='shortcut icon' type='image/x-icon' href='$ayhdrufe>'");
+  compile("<link rel='shortcut icon' type='image/x-icon' href='$ayhdrufe'>");
   
   
 }
