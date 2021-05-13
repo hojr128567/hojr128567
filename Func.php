@@ -122,8 +122,8 @@ function set_text($qrgeppo,$agbbr87){
 function get_text($afvdd){
   compile("<p id='p1'></p>
 <script>
-var input = document.getElementById('$afvdd').value;
-  document.getElementById('p1').innerHTML = input;
+var input128 = document.getElementById('$afvdd').value;
+  document.getElementById('p1').innerHTML = input128;
 </script>");
 }
 ?>
