@@ -116,5 +116,14 @@ function post_text($server_g128,$text_g128,$post_name_g128){
 </form>
 <script>document.getElementById('submit128567').click();</script>");
 }
-
+function set_text($qrgeppo,$agbbr87){
+  js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
+}
+function get_text($afvdd){
+  compile("<p id='p1'></p>
+<script>
+var input = document.getElementById('$afvdd').value;
+  document.getElementById('p1').innerHTML = input;
+</script>");
+}
 ?>
