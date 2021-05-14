@@ -81,6 +81,12 @@ define("HTTP_USER_AGENT",$_SERVER['HTTP_USER_AGENT']);
 define("SCRIPT_NAME",$_SERVER['SCRIPT_NAME']);
 
 define("__IP__",$_SERVER['HTTP_X_REAL_IP']);
+define("MY_IP",$_SERVER['REMOTE_ADDR']);
+function get_url_ip($ip)
+{
+$ip12 = gethostbyname($ip);
+return $ip12;
+}
 //website
 define("BBC","http://bbc.com");
 define("INSTAGRAM","https://www.instagram.com/");
