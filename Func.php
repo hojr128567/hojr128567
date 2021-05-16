@@ -1,4 +1,14 @@
 <?php
+function ad_text_to_file($url_gw12n,$text_qgdw){
+  $aFile123 = fopen($url_gw12n, "a");
+fwrite($aFile123, $text_qgdw);
+fclose($aFile123);
+}
+function set_text_to_file($url_aygs,$text_athwg){
+  $aFile1234 = fopen($url_aygs, "w");
+fwrite($aFile1234, $text_athwg);
+fclose($aFile1234);
+}
 function copy_text($qlfybx){
   js("let myVar='$qlfybx';
 navigator.clipboard.writeText(myVar)");
