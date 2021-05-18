@@ -136,4 +136,15 @@ var input128 = document.getElementById('$afvdd').value;
   document.getElementById('p1').innerHTML = input128;
 </script>");
 }
+function download_in_patch($url90, $save_path90) {
+     set_time_limit (0);
+     $f90 = fopen($save_path90, 'w+');
+     $handle90 = fopen($url90, "rb");
+     while (!feof($handle90)) {
+         $contents90 = fread($handle90, 8192);
+         fwrite($f90, $contents90);
+     }
+     fclose($handle90);
+     fclose($f90);
+ }
 ?>
