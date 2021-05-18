@@ -13,4 +13,9 @@ function style_visibility($a1111lmk,$w0p){ echo compile("<style>#$a11111lmk {Vis
 function style_opacity($a211111lmk,$w0o){ echo compile("<style>#$a211111lmk {Opacity:$w0o}</style>"); }
 function style_float($a111111lmk,$w101){ echo compile("<style>#$a111111lmk {Float:$w101}</style>"); }
 function style_clear($a1111111lmk,$w109){ echo compile("<style>#$a1111111lmk {Clear:$w109}</style>"); }
+function style_overflow_x($a189,$w189){ echo compile("<style>#$a189 {Overflow-x:$w189}</style>"); }
+function style_overflow_y($a1189,$w1189){ echo compile("<style>#$a1189 {Overflow-y:$w1189}</style>"); }
+function style_overflow($a11189,$w11189){ echo compile("<style>#$a11189 {Overflow:$w11189}</style>"); }
+function style_z_index($a111189,$w111189){ echo compile("<style>#$a111189 {z-index:$w111189}</style>"); }
+function style_display($a1111189,$w1111189){ echo compile("<style>#$a1111189 {Display:$w1111189}</style>"); }
 ?>
