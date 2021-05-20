@@ -129,11 +129,11 @@ function post_text($server_g128,$text_g128,$post_name_g128){
 function set_text($qrgeppo,$agbbr87){
   js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
 }
-function get_text($afvdd){
-  compile("<p id='p1'></p>
+function get_text($afvdd,$id_web98){
+  compile("<p id='$id_web98'></p>
 <script>
 var input128 = document.getElementById('$afvdd').value;
-  document.getElementById('p1').innerHTML = input128;
+  document.getElementById('$id_web98').innerHTML = input128;
 </script>");
 }
 function patch_info($patch_12y,$met_1fv){
