@@ -101,7 +101,7 @@ function css($style_var){eval("?>"."<style>$style_var</style>");}
 function js($js_var){eval("?>"."<script>$js_var</script>");}
 //php
 function compile($code_php){
-  eval("?>".$code_php);
+  return eval("?>".$code_php);
 }
 //functions
 function join_and_join($aghhdheudufufut,$bisidoofiruruf){
