@@ -107,11 +107,11 @@ function preform_click($qewqwqkpg){
   
   
 }
-function timer($blkh2r,$ayhggg){
+function timer($blkh2r,$ayhggg,$vargfggg){
   compile("<script>
  
 function timer_s128(){
- compile('$ayhggg');
+ compile('$ayhggg','$vargfggg');
 }
  
 setTimeout(timer_s128,$blkh2r);
