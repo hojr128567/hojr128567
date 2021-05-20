@@ -1,9 +1,9 @@
 <hojr id="qjsrcbeuce"></hojr>
-    <script>
-    function compile(var1246){
+<script>
+    function compile(var1246,var1vh){
       
       
-      document.getElementById("qjsrcbeuce").innerHTML = var1246;
+      document.getElementById(var1vh).innerHTML = var1246;
       
       
       
