@@ -1,12 +1,12 @@
 <?php
 function json_get_object($json_a148,$meghdar_obj184,$json45){
-  compile("<script>var myJSON57 = '$json_a148';
+  compile("<hojr id=$json45></hojr><script>var myJSON57 = '$json_a148';
 var myObj = JSON.parse(myJSON57);
 document.getElementById('$json45').innerHTML = myObj.$meghdar_obj184;
 </script>");
 }
 function json_get_array($json_qffd,$get_map_fshvf,$num_array09,$json46){
-  compile("<script>var myJSON571 = '$json_qffd';
+  compile("<hojr id=$json46></hojr><script>var myJSON571 = '$json_qffd';
 var myObj12 = JSON.parse(myJSON571);
 document.getElementById('$json46').innerHTML = myObj12[$num_array09].$get_map_fshvf;
 </script>");
