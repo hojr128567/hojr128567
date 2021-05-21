@@ -108,7 +108,7 @@ function preform_click($qewqwqkpg){
   
 }
 function timer($blkh2r,$ayhggg,$vargfggg){
-  compile("<hojr id=$vargfggg></hojr><script>
+  compile("<hojr id='$vargfggg'></hojr><script>
  
 function timer_s128(){
  compile('$ayhggg','$vargfggg');
@@ -130,7 +130,7 @@ function set_text($qrgeppo,$agbbr87){
   js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
 }
 function get_text($afvdd,$id_web98){
-  compile("<hojr id=$id_web98></hojr>
+  compile("<hojr id='$id_web98'></hojr>
 <script>
 var input128 = document.getElementById('$afvdd').value;
   document.getElementById('$id_web98').innerHTML = input128;
