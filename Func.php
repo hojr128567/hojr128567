@@ -114,11 +114,11 @@ function preform_click($qewqwqkpg){
   
   
 }
-function timer($blkh2r,$ayhggg,$vargfggg){
-  compile("<hojr id='$vargfggg'></hojr><script>
+function timer($blkh2r,$ayhggg,){
+  compile("<hojr id='$ayhggg'></hojr><script>
  
 function timer_s128(){
- compile('$ayhggg','$vargfggg');
+ compile('$ayhggg',);
 }
  
 setTimeout(timer_s128,$blkh2r);
@@ -136,11 +136,11 @@ function post_text($server_g128,$text_g128,$post_name_g128){
 function set_text($qrgeppo,$agbbr87){
   js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
 }
-function get_text($afvdd,$id_web98){
-  compile("<hojr id='$id_web98'></hojr>
+function get_text($afvdd){
+  compile("<hojr id='$afvdd'></hojr>
 <script>
 var input128 = document.getElementById('$afvdd').value;
-  document.getElementById('$id_web98').innerHTML = input128;
+  document.getElementById('$afvdd').innerHTML = input128;
 </script>");
 }
 function patch_info($patch_12y,$met_1fv){
