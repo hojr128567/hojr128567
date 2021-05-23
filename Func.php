@@ -114,11 +114,24 @@ function preform_click($qewqwqkpg){
   
   
 }
-function timer($blkh2r,$ayhggg,){
-  compile("<hojr id='$ayhggg'></hojr><script>
+function timer($blkh2r,$ayhggg){
+  compile("<hojr id='$ayhggg,$blkh2r'></hojr><script>
  
 function timer_s128(){
- compile('$ayhggg',);
+
+
+
+function compile_t(var12467,fff0){
+      
+      
+      document.getElementById(fff0).innerHTML = var12467;
+      
+      
+      
+    }
+    compile_t('$ayhggg','$ayhggg,$blkh2r');
+    
+    
 }
  
 setTimeout(timer_s128,$blkh2r);
@@ -137,10 +150,12 @@ function set_text($qrgeppo,$agbbr87){
   js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
 }
 function get_text($afvdd){
-  compile("<hojr id='$afvdd'></hojr>
+  $rams=rand(0,10000000000000);
+  $fffffff="b";
+  compile("<hojr id='$afvdd,$b,$rams'></hojr>
 <script>
 var input128 = document.getElementById('$afvdd').value;
-  document.getElementById('$afvdd').innerHTML = input128;
+  document.getElementById('$afvdd,$b,$rams').innerHTML = input128;
 </script>");
 }
 function patch_info($patch_12y,$met_1fv){
