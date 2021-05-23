@@ -1,3 +1,4 @@
+<?php
 function json_get_object($json_a148,$meghdar_obj184){
   $json_ob=rand(0,10000000000000);
   compile("<hojr id='$json_a148,$meghdar_obj184,$json_ob'></hojr><script>var myJSON57 = '$json_a148';
@@ -12,3 +13,4 @@ var myObj12 = JSON.parse(myJSON5712);
 document.getElementById('$json_qffd,$get_map_fshvf,$num_array09,$json_ar').innerHTML = myObj12[$num_array09].$get_map_fshvf;
 </script>");
 }
+?>
