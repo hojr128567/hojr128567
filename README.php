@@ -1,14 +1,4 @@
-<hojr id="qjsrcbeuce"></hojr>
-<script>
-    function compile(var1246){
-      
-      
-      document.getElementById(var1246).innerHTML = var1246;
-      
-      
-      
-    }
-    </script>
+
 <?php
 //phl
 //php hojr lib
