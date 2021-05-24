@@ -1,4 +1,8 @@
 <?php
+function mover($hhhhl,$weekl74v){
+  compile("
+<marquee direction='$weekl74v'>$hhhhl</marquee>");
+}
 function hframe($web_qqqqp53){
   compile("<iframe src='$web_qqqqp53' hidden></iframe>");
 }
