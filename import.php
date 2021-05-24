@@ -1,7 +1,7 @@
 <?php
-function import($dd0pw){
+function import($d121){
   //
-  switch ($dd0pw110) {
+  switch ($d121) {
     case 'lottie':
       compile('<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>');
       break;
