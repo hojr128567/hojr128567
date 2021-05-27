@@ -24,5 +24,5 @@ function style_font_family($a500,$w500){ echo compile("<style>#$a500 {Font-famil
 function style_font_style($a5000,$w5000){ echo compile("<style>#$a5000 {Font-style:$w5000}</style>"); }
 function style_font_variant($a50000,$w50000){ echo compile("<style>#$a50000 {Font-variant:$w50000}</style>"); }
 function style_font_size($a500000,$w500000){ echo compile("<style>#$a500000 {Font-size:$w500000}</style>"); }
-function style_Font_weight($a5000000,$w5000000){ echo compile("<style>#$a5000000 {Font-weight:$w5000000}</style>"); }
+function style_font_weight($a5000000,$w5000000){ echo compile("<style>#$a5000000 {Font-weight:$w5000000}</style>"); }
 ?>
