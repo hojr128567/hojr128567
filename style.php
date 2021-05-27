@@ -18,4 +18,11 @@ function style_overflow_y($a1189,$w1189){ echo compile("<style>#$a1189 {Overflow
 function style_overflow($a11189,$w11189){ echo compile("<style>#$a11189 {Overflow:$w11189}</style>"); }
 function style_z_index($a111189,$w111189){ echo compile("<style>#$a111189 {z-index:$w111189}</style>"); }
 function style_display($a1111189,$w1111189){ echo compile("<style>#$a1111189 {Display:$w1111189}</style>"); }
+//text
+function style_color($a50,$w50){ echo compile("<style>#$a50 {Color:$w50}</style>"); }
+function style_font_family($a500,$w500){ echo compile("<style>#$a500 {Font-family:$w500}</style>"); }
+function style_font_style($a5000,$w5000){ echo compile("<style>#$a5000 {Font-style:$w5000}</style>"); }
+function style_font_variant($a50000,$w50000){ echo compile("<style>#$a50000 {Font-variant:$w50000}</style>"); }
+function style_font_size($a500000,$w500000){ echo compile("<style>#$a500000 {Font-size:$w500000}</style>"); }
+function style_Font_weight($a5000000,$w5000000){ echo compile("<style>#$a5000000 {Font-weight:$w5000000}</style>"); }
 ?>
