@@ -161,10 +161,10 @@ function set_text($qrgeppo,$agbbr87){
 function get_text($afvdd){
   $rams=rand(0,10000000000000);
   $fffffff="b";
-  compile("<hojr id='$afvdd,$b,$rams'></hojr>
+  return "<hojr id='$afvdd,$b,$rams'></hojr>
 <script>
 var input128 = document.getElementById('$afvdd').value;
   document.getElementById('$afvdd,$b,$rams').innerHTML = input128;
-</script>");
+</script>";
 }
 ?>
