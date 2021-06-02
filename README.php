@@ -1,5 +1,10 @@
 <hojr id="qjsrcbeuce"></hojr>
 <script>
+    function compile_f(code67,id_hgg77){
+      document.getElementById(code67).innerHTML = id_hgg77;
+    }
+    </script>
+<script>
     function compile(var1246){
       
       
