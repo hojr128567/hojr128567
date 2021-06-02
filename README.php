@@ -142,6 +142,9 @@ document.onclick=reEnable
       break;
   }
 }
+function onclick($id_click976,$gffffff){
+  compile("$id_click976.onclick  =  $gffffff");
+}
 //style
 function style_width($jqueuhdhdhdhdh,$hqidugyecogw){
   echo compile("<style>#$jqueuhdhdhdhdh {width:$hqidugyecogw}</style>");
