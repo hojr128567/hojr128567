@@ -158,11 +158,4 @@ function post_text($server_g128,$text_g128,$post_name_g128){
 function set_text($qrgeppo,$agbbr87){
   js("document.getElementById('$qrgeppo').innerHTML = '$agbbr87';");
 }
-function get_text($afvdd,$iduggg){
-  return "<hojr id='$iduggg'></hojr>
-<script>
-var input128 = document.getElementById('$afvdd').value;
-  document.getElementById('$iduggg').innerHTML = input128;
-</script>";
-}
 ?>
