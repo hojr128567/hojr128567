@@ -179,13 +179,13 @@ function style_margin_right($q2112jswivs,$q2122ubsu){
 ?>
 <?php
 //includes
-include "https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php";
-include "https://raw.githubusercontent.com/hojr128567/hojr128567/main/file.php";
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/import.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/lottie.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Phl1.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl2.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl3.php");
-include("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl4.php");
+include ("style.php");
+include ("file.php");
+include("Func.php");
+include("import.php");
+include("lottie.php");
+include("Phl1.php");
+include("phl2.php");
+include("phl3.php");
+include("phl4.php");
 ?>
