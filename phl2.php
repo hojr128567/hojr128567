@@ -28,3 +28,4 @@ function html_version($qeweewweee){
     break;
 }
 }
+?>
