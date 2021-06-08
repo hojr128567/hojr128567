@@ -34,14 +34,6 @@ function get_url_ip($ip)
 $ip12 = gethostbyname($ip);
 return $ip12;
 }
-//website
-define("BBC","http://bbc.com");
-define("INSTAGRAM","https://www.instagram.com/");
-define("TELEGRAM","https://telegram.org");
-define("YOUTUBE","https://www.youtube.com");
-define("MICROSOFT","https://www.microsof.com");
-define("PHP","http://php.net");
-define("AMAZON","https://www.amazon.com");
 //css
 function css($style_var){eval("?>"."<style>$style_var</style>");}
 //js
