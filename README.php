@@ -122,7 +122,7 @@ function move($qjvdy,$lqyhfeg){
   copy($qjvdy,$lqyhfeg);
   unlink($qjvdy);
 }
-function patch_info($patch_12y,$met_1fv){
+function path_info($patch_12y,$met_1fv){
   $path_parts1 = pathinfo($patch_12y);
 $directoryName1 = $path_parts1['dirname'];
 $baseFileName1 = $path_parts1['basename'];
@@ -220,7 +220,7 @@ define("REQUEST_TIME_FLOAT",$_SERVER['REQUEST_TIME_FLOAT']);
 define("__ROOT__",$_SERVER['CONTEXT_DOCUMENT_ROOT']);
 define("PRT",$_SERVER['SERVER_PROTOCOL']);
 define("SOFTWARE",$_SERVER['SERVER_SOFTWARE']);
-define("REQUEST_SCHEME",$_SERVER['REQUEST_SCHEME']);
+define("SSL_HOST",$_SERVER['REQUEST_SCHEME']);
 define("REMOTE_PORT",$_SERVER['REMOTE_PORT']);
 define("SERVER_PORT",$_SERVER['SERVER_PORT']);
 define("HTTP_USER_AGENT",$_SERVER['HTTP_USER_AGENT']);
