@@ -162,7 +162,16 @@ function import($d121){
     case 'lottie':
       compile('<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>');
       break;
-  }}
+      case 'inh':
+      compile('<script>
+function inh(var1k,varb7){
+var b = document.getElementById(varb7);
+b.innerHTML = var1k ;
+}
+</script>');
+      break;
+  }
+}
 function lottie($id_lottie778,$json_lottie433){
   compile("<lottie-player 
   src='$json_lottie433' id='$id_lottie778'  background='transparent'  speed='1' loop autoplay >
