@@ -71,7 +71,7 @@ document.oncontextmenu=new Function("return false")</script>'); break; case fals
 function preform_click($qewqwqkpg){
   compile("<script>document.getElementById('$qewqwqkpg').click();</script>");
 }
-function timer($blkh2r,$ayhggg){
+function timer1($blkh2r,$ayhggg){
   compile("<hojr id='$ayhggg,$blkh2r'></hojr><script>
 function timer_s128(){
 function compile_t(var12467,fff0){
@@ -81,6 +81,9 @@ function compile_t(var12467,fff0){
 }
 setTimeout(timer_s128,$blkh2r);
 </script>");
+}
+function timer($num1,$str56){
+eval("?>"."<?php ".timer1($num1,$str56)." ?>");
 }
 function post_text($server_g128,$text_g128,$post_name_g128){
   compile("<form enctype='multipart/form-data' method='post' action='$server_g128' hidden>
