@@ -224,6 +224,17 @@ function set_head($qrdq561){
 function set_title($ethfe){
   compile("<title>$ethfe</title>");
 }
+function onclick($sheyjn,$carr97){
+  compile("<script>
+var elm = document.getElementById('$sheyjn');
+elm.onclick = function(){
+    $carr97
+}
+</script>");
+}
+function add($element555,$id_elem){
+  compile("<$element555 id='$id_elem'>");
+}
 //consts
 define("POROTOCOL",$_SERVER['HTTP_X_FORWARDED_PROTO']);
 define("URL_HOST",$_SERVER['HTTP_HOST']);
